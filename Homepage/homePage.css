@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Tangerine:wght@700&display=swap");
+:root {
+  --text-white-color: rgb(234, 234, 234);
+}
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url("./homePagePic.JPG");
+  background-size: cover;
+}
+.page-wrapper {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.32);
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+h3 {
+  text-align: center;
+  font-size: 30px;
+  margin: 10px;
+  margin-bottom: 80px;
+  font-family: "Tangerine", cursive;
+  color: white;
+}
+
+.instruction {
+  background-color: rgba(102, 122, 162, 0.471);
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 70%;
+  margin: 0 auto;
+  border-radius: 15px;
+  box-shadow: 0 0 15px rgb(22, 22, 22);
+}
+.instruction-text {
+  color: rgb(234, 234, 234);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.image {
+  display: flex;
+  flex-direction: column;
+  background: #34495e;
+  border: 1px solid #34495e;
+  width: 70%;
+  height: 350px;
+  justify-content: center;
+  align-items: center;
+  object-position: center;
+  margin: 5% 15% 5% 15%;
+}
+.image-contain {
+  object-fit: cover;
+}
+
+.buttons {
+  display: flex;
+  gap: 30px;
+  margin: 40px auto;
+}
+.buttons > button {
+  padding: 1rem 1rem;
+  font-size: 1.2rem;
+  width: 150px;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+}
+.buttons > button:hover {
+  box-shadow: 5px 5px 6px rgba(33, 33, 33, 0.703);
+  transition: all 0.1s;
+}
+#easy {
+  background-color: rgb(66, 108, 174);
+  color: white;
+  border: 1px solid rgb(66, 108, 174);
+}
+#easy:hover {
+  background-color: rgb(66, 108, 174);
+  color: white;
+}
+#hard {
+  background-color: rgba(196, 180, 60, 0.882);
+  color: white;
+}
+h1 {
+  font-family: "Tangerine", cursive;
+  text-align: center;
+  color: rgb(234, 234, 234);
+  font-size: 85px;
+  margin: 40px;
+  margin-bottom: 10px;
+}
+h2 {
+  margin-bottom: 0%;
+}
+.subtitle {
+  font-size: 2.4rem;
+}
+.instruction-p {
+  margin: 20px 60px;
+  text-shadow: 0 0 2px black;
+  font-size: 1.3rem;
+}
+.instruction-title {
+  font-size: 1.8rem;
+  text-decoration: underline;
+}
+
+footer {
+  position: absolute;
+  bottom: 1%;
+  left: 50%;
+  transform: translate(-50%, 0);
+  color: white;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 300;
+}
